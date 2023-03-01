@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:flutter_hotel_booking_ui/utils/localfiles.dart';
-import 'package:flutter_hotel_booking_ui/utils/themes.dart';
-import 'package:flutter_hotel_booking_ui/language/appLocalizations.dart';
-import 'package:flutter_hotel_booking_ui/modules/splash/components/page_pop_view.dart';
-import 'package:flutter_hotel_booking_ui/routes/route_names.dart';
-import 'package:flutter_hotel_booking_ui/widgets/common_button.dart';
+import 'package:Amisha/utils/localfiles.dart';
+import 'package:Amisha/utils/themes.dart';
+import 'package:Amisha/language/appLocalizations.dart';
+import 'package:Amisha/modules/splash/components/page_pop_view.dart';
+import 'package:Amisha/routes/route_names.dart';
+import 'package:Amisha/widgets/common_button.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class IntroductionScreen extends StatefulWidget {
@@ -23,20 +23,14 @@ class _IntroductionScreenState extends State<IntroductionScreen> {
   @override
   void initState() {
     pageViewModelData.add(PageViewData(
-      titleText: 'plan_your_trips',
-      subText: 'book_one_of_your',
       assetsImage: Localfiles.introduction1,
     ));
 
     pageViewModelData.add(PageViewData(
-      titleText: 'find_best_deals',
-      subText: 'find_deals_for_any',
       assetsImage: Localfiles.introduction2,
     ));
 
     pageViewModelData.add(PageViewData(
-      titleText: 'best_travelling_all_time',
-      subText: 'find_deals_for_any',
       assetsImage: Localfiles.introduction3,
     ));
 

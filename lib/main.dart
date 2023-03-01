@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_hotel_booking_ui/utils/themes.dart';
-import 'package:flutter_hotel_booking_ui/providers/theme_provider.dart';
-import 'package:flutter_hotel_booking_ui/motel_app.dart';
+import 'package:Amisha/utils/themes.dart';
+import 'package:Amisha/providers/theme_provider.dart';
+import 'package:Amisha/hotel_app.dart';
 import 'package:provider/provider.dart';
 
 void main() async {
@@ -21,6 +21,6 @@ Widget _setAllProviders() {
         ),
       ),
     ],
-    child: MotelApp(),
+    child: HotelApp(),
   );
 }

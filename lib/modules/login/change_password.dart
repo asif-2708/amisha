@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hotel_booking_ui/language/appLocalizations.dart';
-import 'package:flutter_hotel_booking_ui/widgets/common_appbar_view.dart';
-import 'package:flutter_hotel_booking_ui/widgets/common_button.dart';
-import 'package:flutter_hotel_booking_ui/widgets/common_text_field_view.dart';
-import 'package:flutter_hotel_booking_ui/widgets/remove_focuse.dart';
+import 'package:Amisha/language/appLocalizations.dart';
+import 'package:Amisha/widgets/common_appbar_view.dart';
+import 'package:Amisha/widgets/common_button.dart';
+import 'package:Amisha/widgets/common_text_field_view.dart';
+import 'package:Amisha/widgets/remove_focuse.dart';
 
 class ChangepasswordScreen extends StatefulWidget {
   @override

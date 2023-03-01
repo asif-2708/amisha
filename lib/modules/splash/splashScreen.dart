@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hotel_booking_ui/utils/localfiles.dart';
-import 'package:flutter_hotel_booking_ui/utils/text_styles.dart';
-import 'package:flutter_hotel_booking_ui/utils/themes.dart';
-import 'package:flutter_hotel_booking_ui/language/appLocalizations.dart';
-import 'package:flutter_hotel_booking_ui/providers/theme_provider.dart';
-import 'package:flutter_hotel_booking_ui/routes/route_names.dart';
-import 'package:flutter_hotel_booking_ui/widgets/common_button.dart';
+import 'package:Amisha/utils/localfiles.dart';
+import 'package:Amisha/utils/text_styles.dart';
+import 'package:Amisha/utils/themes.dart';
+import 'package:Amisha/language/appLocalizations.dart';
+import 'package:Amisha/providers/theme_provider.dart';
+import 'package:Amisha/routes/route_names.dart';
+import 'package:Amisha/widgets/common_button.dart';
 import 'package:provider/provider.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -73,36 +73,39 @@ class _SplashScreenState extends State<SplashScreen> {
                       borderRadius: BorderRadius.all(
                         Radius.circular(8.0),
                       ),
-                      child: Image.asset(Localfiles.appIcon),
+                      // child: Image.asset(Localfiles.appIcon),
                     ),
                   ),
                 ),
                 SizedBox(
                   height: 16,
                 ),
-                Text(
-                  "Motel",
-                  textAlign: TextAlign.left,
-                  style: TextStyles(context).getBoldStyle().copyWith(
-                        fontSize: 24,
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 225),
+                  child: Column(
+                    children: const [
+                      Text(
+                        "Hotel Amisha",
+                        textAlign: TextAlign.left,
+                        style: TextStyle(
+                            color: Color.fromARGB(255, 255, 255, 255),
+                            fontWeight: FontWeight.bold,
+                            fontSize: 30),
                       ),
-                ),
-                SizedBox(
-                  height: 8,
-                ),
-                AnimatedOpacity(
-                  opacity: isLoadText ? 1.0 : 0.0,
-                  duration: Duration(milliseconds: 420),
-                  child: Text(
-                    AppLocalizations(context).of("best_hotel_deals"),
-                    textAlign: TextAlign.left,
-                    style: TextStyles(context).getRegularStyle().copyWith(),
+                    ],
                   ),
                 ),
-                Expanded(
-                  flex: 4,
-                  child: SizedBox(),
-                ),
+
+                // AnimatedOpacity(
+                //   opacity: isLoadText ? 1.0 : 0.0,
+                //   duration: Duration(milliseconds: 420),
+                //   child: Text(
+                //     AppLocalizations(context).of("best_hotel_deals"),
+                //     textAlign: TextAlign.left,
+                //     style: TextStyles(context).getRegularStyle().copyWith(),
+                //   ),
+                // ),
+
                 AnimatedOpacity(
                   opacity: isLoadText ? 1.0 : 0.0,
                   duration: Duration(milliseconds: 680),

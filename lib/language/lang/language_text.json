@@ -35,13 +35,6 @@
         "ja": "普通のホテルを\nするためにあなたのユニークなホテルの1つを予約する"
     },
     {
-        "text_id": "find_best_deals",
-        "en": "Find best deals",
-        "fr": "Trouvez les meilleures offres",
-        "ar": "البحث عن أفضل الصفقات",
-        "ja": "最高のお得な情報を見つける"
-    },
-    {
         "text_id": "find_deals_for_any",
         "en": "Find deals for any season from cosy\ncountry homes to city flats",
         "fr": "Trouvez des offres pour toutes les saisons, des maisons de campagne \n confortables aux appartements en ville",
@@ -222,11 +215,8 @@
         "ja": "ゲストハウス"
     },
     {
-        "text_id": "motel",
-        "en": "Motel",
-        "fr": "Motel",
-        "ar": "فندق صغير",
-        "ja": "モーテル"
+        "text_id": "Hotel",
+        "en": "Hotel"
     },
     {
         "text_id": "accommodation",

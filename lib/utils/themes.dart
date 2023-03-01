@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hotel_booking_ui/utils/enum.dart';
+import 'package:Amisha/utils/enum.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:flutter_hotel_booking_ui/providers/theme_provider.dart';
-import 'package:flutter_hotel_booking_ui/motel_app.dart';
+import 'package:Amisha/providers/theme_provider.dart';
+import 'package:Amisha/hotel_app.dart';
 import 'package:provider/provider.dart';
 
 class AppTheme {
@@ -31,7 +31,7 @@ class AppTheme {
       isLightMode ? Color(0xFFFFFFFF) : Color(0xFF2C2C2C);
 
   static Color get primaryTextColor =>
-      isLightMode ? Color(0xFF262626) : Color(0xFFFFFFFF);
+      isLightMode ? Color.fromARGB(255, 0, 0, 0) : Color(0xFFFFFFFF);
 
   static Color get secondaryTextColor =>
       isLightMode ? Color(0xFFADADAD) : Color(0xFF6D6D6D);

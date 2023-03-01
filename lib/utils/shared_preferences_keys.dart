@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hotel_booking_ui/utils/themes.dart';
-import 'package:flutter_hotel_booking_ui/utils/enum.dart';
-import 'package:flutter_hotel_booking_ui/motel_app.dart';
+import 'package:Amisha/utils/themes.dart';
+import 'package:Amisha/utils/enum.dart';
+import 'package:Amisha/hotel_app.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SharedPreferencesKeys {

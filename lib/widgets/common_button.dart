@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hotel_booking_ui/widgets/tap_effect.dart';
-import 'package:flutter_hotel_booking_ui/utils/text_styles.dart';
+import 'package:Amisha/widgets/tap_effect.dart';
+import 'package:Amisha/utils/text_styles.dart';
 
 class CommonButton extends StatelessWidget {
   final VoidCallback? onTap;

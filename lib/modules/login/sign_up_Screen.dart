@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hotel_booking_ui/utils/text_styles.dart';
-import 'package:flutter_hotel_booking_ui/utils/themes.dart';
-import 'package:flutter_hotel_booking_ui/language/appLocalizations.dart';
-import 'package:flutter_hotel_booking_ui/routes/route_names.dart';
-import 'package:flutter_hotel_booking_ui/utils/validator.dart';
-import 'package:flutter_hotel_booking_ui/widgets/common_appbar_view.dart';
-import 'package:flutter_hotel_booking_ui/widgets/common_button.dart';
-import 'package:flutter_hotel_booking_ui/widgets/common_text_field_view.dart';
-import 'package:flutter_hotel_booking_ui/widgets/remove_focuse.dart';
+import 'package:Amisha/utils/text_styles.dart';
+import 'package:Amisha/utils/themes.dart';
+import 'package:Amisha/language/appLocalizations.dart';
+import 'package:Amisha/routes/route_names.dart';
+import 'package:Amisha/utils/validator.dart';
+import 'package:Amisha/widgets/common_appbar_view.dart';
+import 'package:Amisha/widgets/common_button.dart';
+import 'package:Amisha/widgets/common_text_field_view.dart';
+import 'package:Amisha/widgets/remove_focuse.dart';
 
 class SignUpScreen extends StatefulWidget {
   @override
