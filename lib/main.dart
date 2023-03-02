@@ -1,8 +1,9 @@
+import 'package:Amisha/modules/rooms/room.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:Amisha/utils/themes.dart';
 import 'package:Amisha/providers/theme_provider.dart';
-import 'package:Amisha/hotel_app.dart';
+// import 'package:Amisha/hotel_app.dart';
 import 'package:provider/provider.dart';
 
 void main() async {
@@ -21,6 +22,6 @@ Widget _setAllProviders() {
         ),
       ),
     ],
-    child: HotelApp(),
+    child: room(),
   );
 }
