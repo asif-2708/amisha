@@ -48,6 +48,10 @@ class NavigationServices {
     return await _pushMaterialPageRoute(ForgotPasswordScreen());
   }
 
+  void gotoReviewsListScreen() {}
+
+  void gotoRoomBookingScreen(String titleTxt) {}
+
   // Future<dynamic> gotoSearchScreen() async {
   //   return await _pushMaterialPageRoute(SearchScreen());
   // }

@@ -64,7 +64,9 @@ class _LoginScreenState extends State<LoginScreen> {
                     CommonButton(
                       padding: EdgeInsets.only(left: 24, right: 24, bottom: 16),
                       buttonText: AppLocalizations(context).of("login"),
-                      onTap: () {},
+                      onTap: () {
+                        NavigationServices(context).gotoadminLogin();
+                      },
                     ),
                     CommonButton(
                       padding: EdgeInsets.only(left: 24, right: 24, bottom: 16),
